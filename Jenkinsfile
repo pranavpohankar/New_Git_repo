@@ -9,7 +9,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Step 1: Building the application...'
-        sh 'df -PhT'
+        sh 'df -PhT
         sh 'pwd'
         sh 'ls -l'
       }
